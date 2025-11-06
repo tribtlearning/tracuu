@@ -1,0 +1,30 @@
+{
+  "name": "aip",
+  "version": "1.0.0",
+  "description": "Serverless API chạy trên Vercel — xử lý âm thanh (Gemini Pro) và tra cứu thông tin.",
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node ./api/process-audio.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "formidable": "^3.5.0",
+    "googleapis": "^105.0.0",
+    "katex": "^0.16.9"
+  },
+  "keywords": [
+    "vercel",
+    "api",
+    "google-gemini",
+    "speech-to-text",
+    "transcription",
+    "process-audio",
+    "tracuu"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
