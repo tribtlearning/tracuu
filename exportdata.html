@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Tải Đề Cương Môn Học | Hệ Thống Tra Cứu</title>
+  <title>Tải Đề Cương Môn Học | Hệ Thống Ôn Tập HG</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   
   <!-- Tailwind CSS -->
@@ -139,7 +139,7 @@
           <i class="fa-solid fa-file-export animate-bounce"></i>
         </div>
         <h3 class="text-xl font-black text-slate-900 mb-2 uppercase tracking-tight">Đang xử lý tệp...</h3>
-        <p class="text-slate-500 text-sm mb-6 font-medium">Hệ thống đang chuẩn bị dữ liệu. Vui lòng chờ trong giây lát.</p>
+        <p class="text-slate-500 text-sm mb-6 font-medium">Hệ thống Ôn tập HG đang chuẩn bị dữ liệu. Vui lòng chờ trong giây lát.</p>
         <div id="loading-step" class="text-[10px] font-black text-brand uppercase tracking-[0.2em] bg-brand/5 py-1.5 rounded-full border border-brand/10">Khởi tạo dữ liệu</div>
       </div>
     </div>
@@ -276,7 +276,7 @@
         if(!data.length) return showMessage("Môn học này hiện chưa có dữ liệu câu hỏi.");
         
         let content = `ĐỀ CƯƠNG MÔN HỌC: ${name.toUpperCase()}\n`;
-        content += `Hệ thống tra cứu học tập TVU & Tiện ích\n`;
+        content += `Hệ thống ôn tập tập HG & Tiện ích\n`;
         content += `--------------------------------------------------\n\n`;
         
         data.forEach((item, index) => {
@@ -361,7 +361,7 @@
         printArea.innerHTML = `
           <div style="text-align:center; margin-bottom:20px; font-family: 'Times New Roman', serif;">
             <h1 style="font-size:24px; font-weight:bold; color:#000; margin:0; text-transform:uppercase;">ĐỀ CƯƠNG MÔN: ${name}</h1>
-            <p style="font-size:14px; color:#555; margin-top:5px;">Hệ thống tra cứu học tập TVU</p>
+            <p style="font-size:14px; color:#555; margin-top:5px;">Hệ thống ôn tập tập HG</p>
           </div>
           <table style="width: 100%; border-collapse: collapse; font-family: 'Times New Roman', serif; font-size: 14pt;">
             <thead style="display: table-header-group;">
